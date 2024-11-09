@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Cyrus Elahi"
 image: profile.jpg
 about:
   template: jolla
@@ -12,8 +12,10 @@ about:
       href: https://linkedin.com
     - icon: github
       text: Github
-      href: https://github.com
-
+      href: https://github.com/ce87
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/cyfi_channel/
 ---
 
-About this blog
+Organizing my thoughts.
