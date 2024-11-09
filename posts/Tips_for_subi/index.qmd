@@ -3,7 +3,7 @@ title: "How to do well on your sub-I"
 author: "Cyrus Elahi"
 date: "2024-11-08"
 categories: [subis, medical_students, rotations]
-image: ""
+image: "bfox_gown.png"
 ---
 
 While it's not hard to do well on a sub-I, only a few students standout every month. Below are some simple ways to help you succeed during a sub-I..
