@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Cyrus Elahi">
+<meta name="dcterms.date" content="2024-11-08">
 
-<title>thoughts</title>
+<title>How to do well on your sub-I – thoughts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">thoughts</span>
     </a>
   </div>
@@ -149,7 +91,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -172,122 +114,74 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">thoughts</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">How to do well on your sub-I</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">subis</div>
+                <div class="quarto-category">medical students</div>
+                <div class="quarto-category">rotations</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Cyrus Elahi </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 8, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="medical students">medical students <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="rotations">rotations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="subis">subis <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p>While it’s not hard to do well on a sub-I, only a few students standout every month. Below are some simple ways to help you succeed during a sub-I..</p>
+<section id="tips" class="level2">
+<h2 class="anchored" data-anchor-id="tips">Tips</h2>
+<ul>
+<li><p><strong>Be team player</strong> - Play well with other rotating medical students. Do not steal cases or answers to questions. Residents notice. Help nurses moving patients, opening doors, etc.</p></li>
+<li><p><strong>Be kind</strong> - Please and thank you go a long away. Simple.</p></li>
+<li><p><strong>Take feedback well</strong> - You will receive consistent feedback on your rotation, that is the point. Take this feedback in stride. Respond to feedback with “sounds good, thanks” instead of “I know”</p></li>
+<li><p><strong>Positive attitude</strong> - You are at the bottom of the totem pole, you will get critiqued by everyone, you will be tired, you will have imposter syndrome, people will know answers you do not, you will be bad at certain tasks. This reality is okay and normal. Still come in everyday to do your best.</p></li>
+<li><p><strong>Be humble</strong> - In your subI presentaiton include more ‘we’ instead of ‘I’, thank mentors. When you dont know, say - “I don’t know”</p></li>
+<li><p><strong>Affable is the most important</strong> - Many discuss the three As, the order of importance from most to least is affable, available, and then able. The able will come, don’t worry.</p></li>
+<li><p><strong>End of rotation talk</strong>- Whatever time you are allotted, DO NOT go long. Smart to have a resident take a look at your slides beforehand (can improve content, point out common pitfalls, creates an internal champion),</p></li>
+<li><p><strong>The one rebuttal rule</strong> - This one is my favorite. When, for example, you are scrubbed in with a resident and they say ‘scrub out, go home, get some rest,’ you can push back once - ‘it’s okay, I would enjoy staying.’ If they double down and insist you scrub out, then you scrub out. Do not push back again because that would then be annoying. This offer is rarely ever a trap (if it is, I am sorry, that was a cruel trap).</p></li>
+<li><p><strong>Listen for how you can help</strong> - Offering to complete a needed task &gt; asking how can I help. When you ask how can I help, while well intentioned, an already overwhelmed resident has to think what task can you do that is educational but also keeps you out of the way. Rather, listen at sign out, listen to the oncall resident take phone calls..you will hear of labs to follow up on, questions for radiology, bird-dogging an EVD prep for when its ready. Find these tasks and either follow-up on them without prompting or ask the resident - you cool if I run to radiology to ask xyz.</p></li>
+</ul>
+</section>
+<section id="what-programs-are-looking-for" class="level2">
+<h2 class="anchored" data-anchor-id="what-programs-are-looking-for">What programs are looking for</h2>
+<ul>
+<li>Are you someone that we want to work with for 7 years? Not are you the smartest, best at tying knots, the most prolific with research, etc.</li>
+</ul>
+<p>Cyrus</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="subis,medical students,rotations" data-listing-date-sort="1731049200000" data-listing-file-modified-sort="1731121351161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="493">
-<div class="thumbnail">
-<p><a href="./posts/Tips_for_subi/index.html" class="no-external"></a></p><a href="./posts/Tips_for_subi/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/Tips_for_subi/bfox_gown.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/Tips_for_subi/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Tips_for_subi/index.html" class="no-external">How to do well on your sub-I</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Tips_for_subi/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('subis'); return false;">
-subis
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('medical students'); return false;">
-medical students
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('rotations'); return false;">
-rotations
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Tips_for_subi/index.html" class="no-external">While it’s not hard to do well on a sub-I, only a few students standout every month. Below are some simple ways to help you succeed during a sub-I..</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/Tips_for_subi/index.html" class="no-external">
-<div class="listing-date">
-Nov 8, 2024
-</div>
-<div class="listing-author">
-Cyrus Elahi
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news,code,analysis" data-listing-date-sort="1730358000000" data-listing-file-modified-sort="1730391195233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
-<div class="thumbnail">
-<p><a href="./posts/I-Love-you/index.html" class="no-external"></a></p><a href="./posts/I-Love-you/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/I-Love-you/me_and_b.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/I-Love-you/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/I-Love-you/index.html" class="no-external">To my girlfriend</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/I-Love-you/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/I-Love-you/index.html" class="no-external">Hey B,</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/I-Love-you/index.html" class="no-external">
-<div class="listing-date">
-Oct 31, 2024
-</div>
-<div class="listing-author">
-Your man
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
