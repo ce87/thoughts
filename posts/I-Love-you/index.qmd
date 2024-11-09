@@ -2,13 +2,13 @@
 title: "To my girlfriend"
 author: "Your man"
 date: "2024-10-31"
-categories: [news, code, analysis]
+categories: [practice, rachel, message]
 image: "me_and_b.png"
 ---
 
 Hey B,
 
-Hate that you have an emotionally heavy day ahead of you. They are fortunate, as am I, to have a thoughtful, caring, emotionally intelligent nurse taking care of them today.
+Sorry you have an emotionally heavy day ahead of you. They are fortunate, as am I, to have a thoughtful, caring, emotionally intelligent person in their life today.
 
 Keeping you in my thoughts. I love you very much.
 
