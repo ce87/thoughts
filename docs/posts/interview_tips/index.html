@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Cyrus Elahi">
+<meta name="dcterms.date" content="2024-11-01">
 
-<title>thoughts</title>
+<title>Stand out in your interview (for the right reasons) – thoughts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">thoughts</span>
     </a>
   </div>
@@ -149,7 +91,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Cyrus Elahi</span></a>
   </li>  
   <li class="nav-item compact">
@@ -172,194 +114,60 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">thoughts</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Stand out in your interview (for the right reasons)</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">interviews</div>
+                <div class="quarto-category">medical students</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Cyrus Elahi </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 1, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Subis">Subis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="interviews">interviews <span class="quarto-category-count">(1)</span></div><div class="category" data-category="medical students">medical students <span class="quarto-category-count">(3)</span></div><div class="category" data-category="message">message <span class="quarto-category-count">(1)</span></div><div class="category" data-category="practice">practice <span class="quarto-category-count">(1)</span></div><div class="category" data-category="rachel">rachel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="rotations">rotations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="writing">writing <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p>- In an interview, your personal mission is to establish common ground asap…neurosurgery or non-neurosurgery related. Can be something in their office, your hobbies, research, hometown, whatever. That common ground leaves a good impression.&nbsp;</p>
+<p>- Less is more. If they are interested they will ask follow up questions. E.g. Do not talk for 2 minutes when they say ‘tell me about yourself.’&nbsp;</p>
+<p>- Smile, have a confident, healthy cadence to your speech (resist nervous pressured speech), appropriate&nbsp;eye contact - these things convey confidence.&nbsp;</p>
+<p>- Work in unscripted questions when opportunities arise - are you a big reader? What book are you currently reading or what’s one of your favorites?</p>
+<p>- Glean tactfully the PD-chair relationship - this relationship dictates if things will get done if residents have gripes.&nbsp;</p>
+<p><br>
+- Do not add to the pressure by comparing yourself to others. Everyone&nbsp;has incredible stories and CVs but that doesn’t matter. The fit is most important and that is decided by you alone. If you are a good fit, you will stand out.&nbsp;</p>
+<p>- When asked what specialty you are interested in - dont&nbsp;be too specific and say xyz is what I will do, but don’t be too vague and say it all sounds good. Say I have had exposure to xyz and have enjoyed xyz aspect of it; however, I realize there is much I haven’t seen/experienced so I have an open mind - something like that.&nbsp;</p>
+<p>- Follow up with 1-3 people - residents and faculty by email and text (don’t write letters). This follow-up shows interest, establishes a point of contact come rank list time, makes them feel good about themselves, and gives them an opportunity to hit reply and give feedback. LESS IS MORE with these messages.&nbsp;</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="writing,medical students" data-listing-date-sort="1733036400000" data-listing-file-modified-sort="1733074797108" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1561">
-<div class="thumbnail">
-<p><a href="./posts/manuscript_writing/index.html" class="no-external"></a></p><a href="./posts/manuscript_writing/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/manuscript_writing/computer_screen.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/manuscript_writing/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/manuscript_writing/index.html" class="no-external">Template for Writing Scientific Papers (made easy)</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/manuscript_writing/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('writing'); return false;">
-writing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('medical students'); return false;">
-medical students
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/manuscript_writing/index.html" class="no-external"><strong>First paragraph</strong></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/manuscript_writing/index.html" class="no-external">
-<div class="listing-date">
-Dec 1, 2024
-</div>
-<div class="listing-author">
-Cyrus Elahi
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Subis,medical students,rotations" data-listing-date-sort="1731049200000" data-listing-file-modified-sort="1733073548728" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="580">
-<div class="thumbnail">
-<p><a href="./posts/Tips_for_subi/index.html" class="no-external"></a></p><a href="./posts/Tips_for_subi/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/Tips_for_subi/bfox_gown.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/Tips_for_subi/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Tips_for_subi/index.html" class="no-external">How to do well on your sub-I</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Tips_for_subi/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Subis'); return false;">
-Subis
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('medical students'); return false;">
-medical students
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('rotations'); return false;">
-rotations
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Tips_for_subi/index.html" class="no-external">While it’s not hard to do well on a sub-I, only a few students standout every month. Below are some simple tips to help you succeed during a sub-I..</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/Tips_for_subi/index.html" class="no-external">
-<div class="listing-date">
-Nov 8, 2024
-</div>
-<div class="listing-author">
-Cyrus Elahi
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="interviews,medical students" data-listing-date-sort="1730444400000" data-listing-file-modified-sort="1733076784597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="282">
-<div class="thumbnail">
-<p><a href="./posts/interview_tips/index.html" class="no-external"></a></p><a href="./posts/interview_tips/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/interview_tips/interview_scene.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/interview_tips/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/interview_tips/index.html" class="no-external">Stand out in your interview (for the right reasons)</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/interview_tips/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('interviews'); return false;">
-interviews
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('medical students'); return false;">
-medical students
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/interview_tips/index.html" class="no-external">- In an interview, your personal mission is to establish common ground asap…neurosurgery or non-neurosurgery related. Can be something in their office, your hobbies…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/interview_tips/index.html" class="no-external">
-<div class="listing-date">
-Nov 1, 2024
-</div>
-<div class="listing-author">
-Cyrus Elahi
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="practice,rachel,message" data-listing-date-sort="1730358000000" data-listing-file-modified-sort="1731162405486" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
-<div class="thumbnail">
-<p><a href="./posts/I-Love-you/index.html" class="no-external"></a></p><a href="./posts/I-Love-you/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/I-Love-you/me_and_b.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/I-Love-you/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/I-Love-you/index.html" class="no-external">To my girlfriend</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/I-Love-you/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('practice'); return false;">
-practice
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('rachel'); return false;">
-rachel
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('message'); return false;">
-message
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/I-Love-you/index.html" class="no-external">Hey B,</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/I-Love-you/index.html" class="no-external">
-<div class="listing-date">
-Oct 31, 2024
-</div>
-<div class="listing-author">
-Your man
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
