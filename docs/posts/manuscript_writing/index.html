@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Cyrus Elahi">
+<meta name="dcterms.date" content="2024-12-01">
 
-<title>thoughts</title>
+<title>Template for Writing Scientific Papers (made easy) – thoughts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">thoughts</span>
     </a>
   </div>
@@ -149,7 +91,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Cyrus Elahi</span></a>
   </li>  
   <li class="nav-item compact">
@@ -172,158 +114,152 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">thoughts</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Template for Writing Scientific Papers (made easy)</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">writing</div>
+                <div class="quarto-category">medical students</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Cyrus Elahi </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">December 1, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Subis">Subis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="medical students">medical students <span class="quarto-category-count">(2)</span></div><div class="category" data-category="message">message <span class="quarto-category-count">(1)</span></div><div class="category" data-category="practice">practice <span class="quarto-category-count">(1)</span></div><div class="category" data-category="rachel">rachel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="rotations">rotations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="writing">writing <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="introduction-3-4-paragraphs-usually-4" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-3-4-paragraphs-usually-4"><strong>Introduction (3-4 paragraphs, usually 4)</strong></h2>
+<p><strong>First paragraph</strong></p>
+<p>Logic</p>
+<ul>
+<li><p>Attention grabbing opening sentence often times with an impressive statistic from the literature.</p></li>
+<li><p>Each subsequent sentence gets more specific, narrowing to the topic of the paper.&nbsp;</p></li>
+<li><p>The last sentence should introduce the gap in the literature.&nbsp;</p></li>
+</ul>
+<p>Example&nbsp;</p>
+<p>At an estimated 69 million cases annually, traumatic brain injury (TBI) is a devastating global health pathology with a growing burden of disease. This burden disproportionately occurs in low- and middle income countries (LMICs), where the incidence of TBI is nearly 3 times the incidence in high-income countries (HICs). In sub-Saharan Africa (SSA), an estimated 801 people per 100,000 suffer TBI, with in-hospital mortality rates as high as 47% for severe TBI. In HICs, neurosurgical interventions have been shown to prevent morbidity and mortality in certain patients with TBI. However, in SSA, a region with an estimated 1 neurosurgeon per 9 million people, hospitals must balance limited surgical capacity with expansive clinical need. This demands investigation of the surgical impact on TBI outcomes, which can then support triage and surgical intervention decisions. Despite the need, the impact of surgery on TBI outcomes remains unexplored in low-resource settings.&nbsp;</p>
+<p><strong>Second and third paragraph</strong></p>
+<p>Logic</p>
+<ul>
+<li><p>The second and the third paragraph should leave your reader with sufficient context/understanding from the literature to understand the gap your paper will address.&nbsp;&nbsp;</p></li>
+<li><p>Goal is to summarize the relevant existing literature to get the reader up to speed on the topic of interest.</p></li>
+<li><p>As in the first paragraph, start broad and gradually get more specific with each subsequent sentence.&nbsp;</p></li>
+<li><p>If possible, the last sentence in the second and third paragraph should segue into the next paragraph and introduce a gap in the literature justifying the need for your study.&nbsp;</p></li>
+<li><p>Similar to paragraph two, the third paragraph should summarize the relevant existing literature to get the reader up to speed on the topic of interest. Often, there are two concepts that need to be introduced.&nbsp;</p></li>
+</ul>
+<p>Example&nbsp;</p>
+<p>One major cause of in-hospital death for patients with TBI is secondary brain injury resulting from increased intracranial pressure. Neurosurgical decompression, including craniectomies and craniotomies, can relieve elevated intracranial pressure and prevent disability and death in certain TBI patients. TBI morbidity and mortality in SSA remains high due in part to limited neurosurgical resources and a TBI burden that exceeds capacity. In a comparison study, patients with a severe TBI in LMICs had more than twice the odds of death compared to patients in HICs. TBI surveillance registries from the SSA countries of Tanzania, Malawi, Uganda, and Ethiopia reported mortality rates of 47%, 41%, 26%, and 21%, respectively, for severe TBI. The causes of these mortality rates are multifactorial, including the prehospital and inpatient care settings. Although prehospital quality data in low resource settings are scarce, the availability of quality inpatient TBI registries from LMICs invites exploration of in-hospital care for patients with TBI in SSA.&nbsp;</p>
+<p>A survival analysis performed using a Cox regression model is a powerful statistical technique to quantify the association between a treatment and outcome for two groups. For TBI, this technique has potential to measure associations between in-hospital clinical management (e.g., surgical intervention) and outcomes. As of 2010, there were only 12 papers examining TBI management in non–high-income settings, only 1 of which was from a low-income country. Despite a recent increase in published data on TBI management and outcomes in LMICs, there are no previous studies applying survival analyses to inpatient TBI outcomes data.</p>
+<p><strong>Fourth paragraph</strong></p>
+<p>Logic</p>
+<ul>
+<li><p>State the objective of the study; can be one or two sentences to state the primary and secondary objectives.&nbsp;</p></li>
+<li><p>This paragraph can be shorter than the first three.&nbsp;</p></li>
+</ul>
+<p>Example&nbsp;</p>
+<p>TBI outcomes data from an area of the world where trauma is an endemic disease can help plan interventions to improve TBI management. This study’s objective was to assess the outcomes of TBI patients at a tertiary referral center in Moshi, Tanzania. Specifically, we wanted to determine if TBI patients receiving surgery had better outcomes than TBI patients not receiving surgery and whether this differs with severity of injury. A greater understanding of the impact of surgery by TBI severity, particularly in a resource-scarce setting, can guide the prioritization of limited resources.</p>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods"><strong>Methods</strong></h2>
+<p>Find the relevant guide from the equator network for the particular study - <a href="https://www.equator-network.org/" class="uri">https://www.equator-network.org/</a>&nbsp;</p>
+<p>Mention that we used the “xyz” guideline (E.g. We used the STROBE guidelines for this study).&nbsp;</p>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results"><strong>Results</strong></h2>
+<ul>
+<li><p>Often best to start writing the results of a paper first and including the figures of interest. From the results section, the other sections of writing will flow easier.&nbsp;</p></li>
+<li><p>Results typically have 1-3 Tables and 1-3 figures.</p></li>
+<li><p><strong>Fight the urge to interpret the findings. This section is purely objective reporting of the study’s findings.</strong>&nbsp;</p></li>
+<li><p>Please refer to the respective method in the GEMINI Toolbox for detailed&nbsp;</p></li>
+</ul>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion"><strong>Discussion</strong></h2>
+<p><strong>First paragraph</strong></p>
+<p>Logic</p>
+<ul>
+<li><p>The first sentence says why this paper is AWESOME.</p></li>
+<li><p>The next two to three sentences, at a high level, should highlight some major findings of the paper.&nbsp;</p></li>
+<li><p>For the last sentence, think of the two-three (usually three) key findings from your paper. The last sentence will introduce the two or three topics you will expand on in the next couple paragraphs (similar to a thesis statement).&nbsp;</p></li>
+</ul>
+<p>Example</p>
+<p>This study is the first analysis of acute TBI outcomes performed using a survival analysis in an LMIC and is one of the largest single-center studies on TBI outcome. Approximately one-quarter of the 2502 patients in our study received surgery for TBI; those who did had a lower hazard for poor outcome than those who did not. To varying degrees, we observed a benefit of surgery for all TBI severities. Surgical intervention was associated with the greatest improvement in outcomes for moderate TBI, followed by mild and severe TBI. The fully adjusted models revealed variables significantly associated with both poor and good outcome. This study leveraged advanced statistical methods and a robust data set from an LMIC to investigate the association of surgery with acute TBI outcomes and how that association changes according to TBI severity.</p>
+<p><strong>Second, third, and forth paragraph</strong></p>
+<ul>
+<li><p>Expand upon the ideas introduced in the last sentence of the first paragraph of the discussion.</p></li>
+<li><p>Specifically, discuss the finding from your paper and how that compares with other similar findings in the literature.</p></li>
+<li><p>Cite other relevant papers here and “discuss” how your study is similar/different.&nbsp;</p></li>
+</ul>
+</section>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations"><strong>Limitations</strong></h2>
+<p>Logic</p>
+<ul>
+<li><p>Example limitations range from sample size, sample selection, data limitations, response rates, short-comings to method/analysis used, etc.</p></li>
+<li><p>Always have this section and be thoughtful about the limitations.&nbsp;</p></li>
+<li><p>This section shows humility, no study is perfect.&nbsp;</p></li>
+<li><p>Reviewers will appreciate you highlighting efforts made to partially mitigate limitations.&nbsp;&nbsp;</p></li>
+</ul>
+<p>Example</p>
+<p>A robust statistical analysis of registry data from a low resource setting needs careful consideration of limitations. First, the decision to operate or not is influenced by factors that may also contribute to the patient outcome. For example, a patient may not receive surgery due to major comorbidities or other negative prognostic indicators. As a result, a patient suitable for surgery may be better positioned to have a good outcome. To mitigate this limitation, we used the data available to control for predictor of outcome (e.g., GCS score, age). Also, previous research in similar contexts of care has found that limited resources may be focused on more severely injured patients. The TBI registry used in this study did not include the GCS score at the time of surgery because this information was not always readily available to the research team. The type of surgery was also not documented in the database; however, the general surgery staff endorsed performing mostly burr holes and some hemicraniectomies/craniotomies. The registry included fewer patients who suffered severe and moderate TBI than those with mild injuries. The smaller sample size limited our ability to draw inferences from the survival analyses at later HDs. Other than the admission GCS score, we did not have data on the injury itself (e.g., CT results) to understand the severity of the TBI. We also did not have information on other injuries that might have caused poor outcomes. Finally, we did not have patient outcomes data past hospitalization due to the limited postdischarge contact and care in this clinical setting. This limited our analysis to in-hospital outcomes only.</p>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions"><strong>Conclusions</strong></h2>
+<p>Logic</p>
+<ul>
+<li><p>Least important section, 3-4 sentences that are recycles, reworded text from earlier in the paper.</p></li>
+<li><p>We sought out to do xyz, we found that xyz, we hope that xyyz helps encourage others or future work should investigate xyz.&nbsp;</p></li>
+</ul>
+<p>Example</p>
+<p>A detailed understanding of TBI in-hospital outcomes in a low-resource setting is needed to support prudent use of limited, life-saving resources. This paper provides an analysis of surgical management and outcomes data from a tertiary referral center in Moshi, Tanzania. Surgical intervention improved outcomes for all patients with mild, moderate, and severe TBI. The positive impact of surgery to improve outcomes, however, was greatest for patients with moderate and mild TBI. Future research should investigate which patients with TBI are the best candidates for surgery and what factors contribute to clinical deterioration for patients with longer hospital stays, especially in the low-resource setting.</p>
+</section>
+<section id="guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="guidelines"><strong>Guidelines</strong></h2>
+<ul>
+<li><p><a href="https://drive.google.com/file/d/1k4R7fb0VsG8PUK9Mov7B3tjuxBq9ld5Q/view?usp=sharing" class="uri">https://drive.google.com/file/d/1k4R7fb0VsG8PUK9Mov7B3tjuxBq9ld5Q/view?usp=sharing</a></p>
+<ul>
+<li>Detailed and well written how-to for scientific writing.&nbsp;</li>
+</ul></li>
+</ul>
+</section>
+<section id="example-papers" class="level2">
+<h2 class="anchored" data-anchor-id="example-papers"><strong>Example papers</strong></h2>
+<ul>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7133756/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7133756/</a></li>
+</ul>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="writing,medical students" data-listing-date-sort="1733036400000" data-listing-file-modified-sort="1733074636544" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1561">
-<div class="thumbnail">
-<p><a href="./posts/manuscript_writing/index.html" class="no-external"></a></p><a href="./posts/manuscript_writing/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/manuscript_writing/computer_screen.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/manuscript_writing/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/manuscript_writing/index.html" class="no-external">Template for Writing Scientific Papers (made easy)</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/manuscript_writing/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('writing'); return false;">
-writing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('medical students'); return false;">
-medical students
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/manuscript_writing/index.html" class="no-external"><strong>First paragraph</strong></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/manuscript_writing/index.html" class="no-external">
-<div class="listing-date">
-Dec 1, 2024
-</div>
-<div class="listing-author">
-Cyrus Elahi
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Subis,medical students,rotations" data-listing-date-sort="1731049200000" data-listing-file-modified-sort="1733073548728" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="580">
-<div class="thumbnail">
-<p><a href="./posts/Tips_for_subi/index.html" class="no-external"></a></p><a href="./posts/Tips_for_subi/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/Tips_for_subi/bfox_gown.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/Tips_for_subi/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Tips_for_subi/index.html" class="no-external">How to do well on your sub-I</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Tips_for_subi/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Subis'); return false;">
-Subis
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('medical students'); return false;">
-medical students
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('rotations'); return false;">
-rotations
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Tips_for_subi/index.html" class="no-external">While it’s not hard to do well on a sub-I, only a few students standout every month. Below are some simple tips to help you succeed during a sub-I..</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/Tips_for_subi/index.html" class="no-external">
-<div class="listing-date">
-Nov 8, 2024
-</div>
-<div class="listing-author">
-Cyrus Elahi
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="practice,rachel,message" data-listing-date-sort="1730358000000" data-listing-file-modified-sort="1731162405486" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
-<div class="thumbnail">
-<p><a href="./posts/I-Love-you/index.html" class="no-external"></a></p><a href="./posts/I-Love-you/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/I-Love-you/me_and_b.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/I-Love-you/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/I-Love-you/index.html" class="no-external">To my girlfriend</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/I-Love-you/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('practice'); return false;">
-practice
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('rachel'); return false;">
-rachel
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('message'); return false;">
-message
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/I-Love-you/index.html" class="no-external">Hey B,</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/I-Love-you/index.html" class="no-external">
-<div class="listing-date">
-Oct 31, 2024
-</div>
-<div class="listing-author">
-Your man
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,0 +1,133 @@
+---
+title: "Template for Writing Scientific Papers (made easy)"
+author: "Cyrus Elahi"
+date: "2024-12-01"
+categories: [writing, medical students]
+image: "computer_screen.png"
+---
+
+## **Introduction (3-4 paragraphs, usually 4)**
+
+**First paragraph**
+
+Logic
+
+-   Attention grabbing opening sentence often times with an impressive statistic from the literature.
+
+-   Each subsequent sentence gets more specific, narrowing to the topic of the paper. 
+
+-   The last sentence should introduce the gap in the literature. 
+
+Example 
+
+At an estimated 69 million cases annually, traumatic brain injury (TBI) is a devastating global health pathology with a growing burden of disease. This burden disproportionately occurs in low- and middle income countries (LMICs), where the incidence of TBI is nearly 3 times the incidence in high-income countries (HICs). In sub-Saharan Africa (SSA), an estimated 801 people per 100,000 suffer TBI, with in-hospital mortality rates as high as 47% for severe TBI. In HICs, neurosurgical interventions have been shown to prevent morbidity and mortality in certain patients with TBI. However, in SSA, a region with an estimated 1 neurosurgeon per 9 million people, hospitals must balance limited surgical capacity with expansive clinical need. This demands investigation of the surgical impact on TBI outcomes, which can then support triage and surgical intervention decisions. Despite the need, the impact of surgery on TBI outcomes remains unexplored in low-resource settings. 
+
+**Second and third paragraph**
+
+Logic
+
+-   The second and the third paragraph should leave your reader with sufficient context/understanding from the literature to understand the gap your paper will address.  
+
+-   Goal is to summarize the relevant existing literature to get the reader up to speed on the topic of interest.
+
+-   As in the first paragraph, start broad and gradually get more specific with each subsequent sentence. 
+
+-   If possible, the last sentence in the second and third paragraph should segue into the next paragraph and introduce a gap in the literature justifying the need for your study. 
+
+-   Similar to paragraph two, the third paragraph should summarize the relevant existing literature to get the reader up to speed on the topic of interest. Often, there are two concepts that need to be introduced. 
+
+Example 
+
+One major cause of in-hospital death for patients with TBI is secondary brain injury resulting from increased intracranial pressure. Neurosurgical decompression, including craniectomies and craniotomies, can relieve elevated intracranial pressure and prevent disability and death in certain TBI patients. TBI morbidity and mortality in SSA remains high due in part to limited neurosurgical resources and a TBI burden that exceeds capacity. In a comparison study, patients with a severe TBI in LMICs had more than twice the odds of death compared to patients in HICs. TBI surveillance registries from the SSA countries of Tanzania, Malawi, Uganda, and Ethiopia reported mortality rates of 47%, 41%, 26%, and 21%, respectively, for severe TBI. The causes of these mortality rates are multifactorial, including the prehospital and inpatient care settings. Although prehospital quality data in low resource settings are scarce, the availability of quality inpatient TBI registries from LMICs invites exploration of in-hospital care for patients with TBI in SSA. 
+
+A survival analysis performed using a Cox regression model is a powerful statistical technique to quantify the association between a treatment and outcome for two groups. For TBI, this technique has potential to measure associations between in-hospital clinical management (e.g., surgical intervention) and outcomes. As of 2010, there were only 12 papers examining TBI management in non–high-income settings, only 1 of which was from a low-income country. Despite a recent increase in published data on TBI management and outcomes in LMICs, there are no previous studies applying survival analyses to inpatient TBI outcomes data.
+
+**Fourth paragraph**
+
+Logic
+
+-   State the objective of the study; can be one or two sentences to state the primary and secondary objectives. 
+
+-   This paragraph can be shorter than the first three. 
+
+Example 
+
+TBI outcomes data from an area of the world where trauma is an endemic disease can help plan interventions to improve TBI management. This study’s objective was to assess the outcomes of TBI patients at a tertiary referral center in Moshi, Tanzania. Specifically, we wanted to determine if TBI patients receiving surgery had better outcomes than TBI patients not receiving surgery and whether this differs with severity of injury. A greater understanding of the impact of surgery by TBI severity, particularly in a resource-scarce setting, can guide the prioritization of limited resources.
+
+## **Methods**
+
+Find the relevant guide from the equator network for the particular study - <https://www.equator-network.org/> 
+
+Mention that we used the “xyz” guideline (E.g. We used the STROBE guidelines for this study). 
+
+## **Results**
+
+-   Often best to start writing the results of a paper first and including the figures of interest. From the results section, the other sections of writing will flow easier. 
+
+-   Results typically have 1-3 Tables and 1-3 figures.
+
+-   Fight the urge to interpret the findings. This section is purely objective reporting of the study’s findings. 
+
+-   Please refer to the respective method in the GEMINI Toolbox for detailed 
+
+## **Discussion** 
+
+**First paragraph**
+
+Logic
+
+-   The first sentence says why this paper is AWESOME.
+
+-   The next two to three sentences, at a high level, should highlight some major findings of the paper. 
+
+-   For the last sentence, think of the two-three (usually three) key findings from your paper. The last sentence will introduce the two or three topics you will expand on in the next couple paragraphs (similar to a thesis statement). 
+
+Example
+
+This study is the first analysis of acute TBI outcomes performed using a survival analysis in an LMIC and is one of the largest single-center studies on TBI outcome. Approximately one-quarter of the 2502 patients in our study received surgery for TBI; those who did had a lower hazard for poor outcome than those who did not. To varying degrees, we observed a benefit of surgery for all TBI severities. Surgical intervention was associated with the greatest improvement in outcomes for moderate TBI, followed by mild and severe TBI. The fully adjusted models revealed variables significantly associated with both poor and good outcome. This study leveraged advanced statistical methods and a robust data set from an LMIC to investigate the association of surgery with acute TBI outcomes and how that association changes according to TBI severity.
+
+**Second, third, and forth paragraph**
+
+-   Expand upon the ideas introduced in the last sentence of the first paragraph of the discussion.
+
+-   Specifically, discuss the finding from your paper and how that compares with other similar findings in the literature.
+
+-   Cite other relevant papers here and “discuss” how your study is similar/different. 
+
+## **Limitations** 
+
+Logic
+
+-   Example limitations range from sample size, sample selection, data limitations, response rates, short-comings to method/analysis used, etc.
+
+-   Always have this section and be thoughtful about the limitations. 
+
+-   This section shows humility, no study is perfect. 
+
+-   Reviewers will appreciate you highlighting efforts made to partially mitigate limitations.  
+
+Example
+
+A robust statistical analysis of registry data from a low resource setting needs careful consideration of limitations. First, the decision to operate or not is influenced by factors that may also contribute to the patient outcome. For example, a patient may not receive surgery due to major comorbidities or other negative prognostic indicators. As a result, a patient suitable for surgery may be better positioned to have a good outcome. To mitigate this limitation, we used the data available to control for predictor of outcome (e.g., GCS score, age). Also, previous research in similar contexts of care has found that limited resources may be focused on more severely injured patients. The TBI registry used in this study did not include the GCS score at the time of surgery because this information was not always readily available to the research team. The type of surgery was also not documented in the database; however, the general surgery staff endorsed performing mostly burr holes and some hemicraniectomies/craniotomies. The registry included fewer patients who suffered severe and moderate TBI than those with mild injuries. The smaller sample size limited our ability to draw inferences from the survival analyses at later HDs. Other than the admission GCS score, we did not have data on the injury itself (e.g., CT results) to understand the severity of the TBI. We also did not have information on other injuries that might have caused poor outcomes. Finally, we did not have patient outcomes data past hospitalization due to the limited postdischarge contact and care in this clinical setting. This limited our analysis to in-hospital outcomes only.
+
+## **Conclusions** 
+
+Logic
+
+-   Least important section, 3-4 sentences that are recycles, reworded text from earlier in the paper.
+
+-   We sought out to do xyz, we found that xyz, we hope that xyyz helps encourage others or future work should investigate xyz. 
+
+Example
+
+A detailed understanding of TBI in-hospital outcomes in a low-resource setting is needed to support prudent use of limited, life-saving resources. This paper provides an analysis of surgical management and outcomes data from a tertiary referral center in Moshi, Tanzania. Surgical intervention improved outcomes for all patients with mild, moderate, and severe TBI. The positive impact of surgery to improve outcomes, however, was greatest for patients with moderate and mild TBI. Future research should investigate which patients with TBI are the best candidates for surgery and what factors contribute to clinical deterioration for patients with longer hospital stays, especially in the low-resource setting.
+
+## **Guidelines**
+
+-   <https://drive.google.com/file/d/1k4R7fb0VsG8PUK9Mov7B3tjuxBq9ld5Q/view?usp=sharing>
+
+    -   Detailed and well written how-to for scientific writing. 
+
+## **Example papers**
+
+-   <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7133756/>
